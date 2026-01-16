@@ -60,3 +60,131 @@ This project was developed as part of an **AI-tool proficiency assignment**, foc
 
 ## **📂 Project Structure**
 
+com.example.quotevault
+│
+├── data
+│ ├── QuoteRepository.kt
+│ └── DailyQuoteManager.kt
+│
+├── model
+│ └── Quote.kt
+│
+├── ui
+│ ├── auth
+│ │ └── LoginScreen.kt
+│ ├── home
+│ │ ├── HomeScreen.kt
+│ │ └── QuoteCard.kt
+│ ├── favorites
+│ │ └── FavoritesScreen.kt
+│ └── theme
+│ ├── Color.kt
+│ └── Theme.kt
+│
+└── MainActivity.kt
+
+
+---
+
+## **⚙️ Setup Instructions**
+
+### **Prerequisites**
+- Android Studio (latest stable)
+- JDK 17+
+- Android SDK (API 24+)
+
+### **Run Locally**
+```bash
+git clone https://github.com/ankita8317/QuoteVault.git
+
+Open the project in Android Studio
+
+Let Gradle sync
+
+Run on emulator or physical device
+
+🔐 Supabase Configuration (Planned)
+
+Supabase was part of the original assignment requirements.
+
+For this submission:
+
+Authentication and quote data are handled locally
+
+This ensured faster iteration, stability, and UI polish
+
+Supabase can be integrated by replacing QuoteRepository with a Supabase-backed data source and adding API keys
+
+This decision follows the assignment recommendation to prioritize core features and polish over incomplete integrations.
+
+🤖 AI Coding Approach & Workflow
+
+AI tools were used throughout the development lifecycle.
+
+How AI Was Used
+
+Designing Jetpack Compose layouts
+
+Debugging Compose state and recomposition issues
+
+Resolving Gradle and dependency conflicts
+
+Refactoring into clean architecture
+
+UI polish and consistency improvements
+
+Workflow
+
+Feature planning with AI
+
+Rapid code generation using AI tools
+
+Manual review and refactoring
+
+Debugging with AI assistance
+
+Final UI polish and cleanup
+
+🧠 AI Tools Used
+
+ChatGPT – architecture planning, debugging, UI polish
+
+Cursor AI – code generation, refactoring, error fixing
+
+Android Studio tools – previews and inspections
+
+AI was used to accelerate development, while architectural decisions were made manually.
+
+🎨 Design Process
+
+Initial UI ideas generated with AI-assisted design suggestions
+
+Green & white color palette chosen for calm and readable UI
+
+Designs translated directly into Jetpack Compose components
+
+Focus on spacing, typography, and visual hierarchy
+
+⚠️ Known Limitations
+
+Authentication is local (no backend persistence)
+
+Favorites are stored in memory (not cloud synced)
+
+No widget implemented
+
+No push notifications
+
+Share card image generation not implemented (text sharing only)
+
+🌱 Future Improvements
+
+Supabase authentication and cloud sync
+
+Push notifications for daily quotes
+
+Home screen widget
+
+Image-based share cards
+
+User profile and settings persistence
