@@ -187,5 +187,4 @@ Home screen widget
 Image-based share cards
 
 User profile and settings persistence
-## **📂 Project Structure**
 
