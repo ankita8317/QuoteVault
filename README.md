@@ -57,7 +57,6 @@ This project was developed as part of an **AI-tool proficiency assignment**, foc
 - **Minimum SDK:** 24  
 
 ---
-
 ## **📂 Project Structure**
 
 com.example.quotevault
@@ -188,3 +187,5 @@ Home screen widget
 Image-based share cards
 
 User profile and settings persistence
+## **📂 Project Structure**
+
