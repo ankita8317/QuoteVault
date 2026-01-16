@@ -176,6 +176,7 @@ No push notifications
 
 Share card image generation not implemented (text sharing only)
 
+
 🌱 Future Improvements
 
 Supabase authentication and cloud sync
